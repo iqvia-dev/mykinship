@@ -1,0 +1,58 @@
+# Library.
+# ----------------------------
+mykinship_library: 'production'
+# Layout.
+# ----------------------------
+mykinship_sidebar_position: 'both'
+mykinship_content_offset: 0
+mykinship_sidebar_first_width: 4
+mykinship_sidebar_first_offset: 0
+mykinship_sidebar_second_width: 3
+mykinship_sidebar_second_offset: 0
+
+# Container.
+# ----------------------------
+mykinship_container: 'container'
+mykinship_fluid_container: 0
+
+# Buttons.
+# ----------------------------
+mykinship_button: 1
+mykinship_button_size: ''
+mykinship_button_outline: 0
+
+# Navbar.
+# ----------------------------
+mykinship_navbar_toggle: 'navbar-toggleable-lg'
+mykinship_navbar_container: ''
+mykinship_navbar_top_position: ''
+mykinship_navbar_top_color: ''
+mykinship_navbar_top_background: ''
+mykinship_navbar_position: ''
+mykinship_navbar_color: ''
+mykinship_navbar_background: ''
+
+# Messages.
+# ----------------------------
+mykinship_messages_widget: 'alerts'
+
+# Colors.
+# ----------------------------
+mykinship_system_messages: 'messages_white'
+
+# Tables.
+# ----------------------------
+mykinship_table_hover: 1
+mykinship_table_style: 'table-striped'
+
+# Colors
+# ----------------------------
+mykinship_enable_color: false
+mykinship_color_scheme: 'default'
+mykinship_base_primary_color: '#2F3C7E'
+mykinship_base_secondary_color: '#FBEAEB'
+mykinship_body_color: 'gray-800'
+mykinship_body_bg_color: 'white'
+mykinship_h1_color: 'base'
+mykinship_h2_color: 'base'
+mykinship_h3_color: 'base'
