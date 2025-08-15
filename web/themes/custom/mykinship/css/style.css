@@ -2,3 +2,529 @@
  * @file
  * Subtheme specific CSS.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+
+
+ html, body {
+   font-family: Montserrat, Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: #ebece8;
+ }
+
+ label {
+     font-weight: 300;
+     margin-bottom: 0px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+
+ h1, h2, h3, h4, h5 {
+   color: #f1666a;
+   font-weight: 600;
+   margin-bottom: 20px;
+ }
+
+ h1 {
+  font-size: 32px;
+  color: #164055;
+  text-transform: uppercase;
+ }
+
+ .displaynone{
+   display: none !important;
+
+ }
+
+ body li {
+   margin-bottom: 5px;
+
+ }
+
+ a {
+   color: #f1666a;		/* PRIMARY COLOR */
+   transition: all 0.4s ease;
+   cursor: pointer;
+ }
+
+
+ button {
+   transition: all 0.3s ease;
+
+ }
+
+ a:hover {
+   color: #d83237;
+ }
+
+ /* Navbar container */
+ nav.navbar .container-fluid {
+     margin: 0 3rem;
+ }
+
+ #navbarContent .col-lg-6.text-end.mt-3.mt-lg-0 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .anonymous-navbar {
+  width: 100vw;
+  padding-top: 1rem;
+ }
+
+ .rteright {
+  text-align: right;
+}
+
+.table > tbody:nth-child(1) > tr:nth-child(1) {
+  background-color: #ffffff;
+}
+
+.table.brandheadertable {
+  margin-bottom: 0 !important;
+}
+
+/* Button style */
+
+.btn {
+  text-shadow: none;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: none;
+  border-radius: 25px;
+  padding: 16px 36px;
+  font-size: 20px;
+  line-height: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+  background: #f1666a;
+    background-color: rgb(241, 102, 106);
+  background-color: rgb(241, 102, 106);
+  font-weight: 600;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Anonymous landing page */
+.homeleft {
+  background-image: url('/../sites/default/files/kinship_iv.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  background-color: #164055;
+  padding-bottom: 12rem;
+}
+
+.kinshiplogo {
+  width: 100%;
+  max-width: 520px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.homeleft p {
+  color: white;
+  margin-top: 50px;
+}
+
+.centerwrapper p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.homeright {
+  padding-bottom: 40px;
+}
+
+.homeright {
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 6rem;
+}
+
+.page-node-1 #block-mykinship-anonymouslandingpageright .clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-hidden.field__item {
+  display: flex;
+}
+
+.rtecenter {
+  text-align: center;
+}
+
+ul.quicktabs-tabs {
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+ul.quicktabs-tabs li {
+  display: inline;
+}
+
+ul.quicktabs-tabs li {
+  display: inline;
+  background: none;
+  list-style-type: none;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+ul.quicktabs-tabs li a {
+  text-decoration: none;
+}
+
+ul.quicktabs-tabs li.active a {
+  text-decoration: none;
+  border-bottom: 3px solid #f1666a;
+}
+
+a.quicktabs-tab {
+  font-size: 24px;
+  color: #164055;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page-node-1 h1 {
+  color: #f1666a;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.page-node-1 .sidebar .block {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.prescriberhome-2 {
+  background-color: #f1666a;
+}
+
+.prescriberhome-2 h2 {
+  color: white;
+  font-weight: 600;
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 42px;
+}
+
+.envelope-1070 {
+  max-width: 1070px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.prescriberhome-1.temp {
+  background-color: #fafbfc;
+  background-image: url('/../sites/default/files/welcome-topimage-2.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+hr.pinkbullet {
+  border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+  border-bottom: 6px solid #f1666a;
+  width: 60px;
+  display: inline-block;
+}
+
+.page-node-1 .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-node-1 #sidebar_first {
+  order: 1;
+  width: 52%;
+  background-color: #ebece8;
+}
+
+.page-node-1 #content {
+  order: 2;
+  width: 48%;
+}
+
+
+.page-node-1 #main, .page-node-1 .container,
+.page-node-7 #main, .page-node-7 .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto; /* Optional: centers content if there's padding */
+  padding: 0;     /* Optional: remove default padding */
+}
+
+.page-node-1 #block-mykinship-userlogin, #block-mykinship-anonymouslandingpageright {
+  background-color: #ebece8;
+}
+
+#user-login-form {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+#block-mykinship-anonymouslandingpageleft {
+  border: none !important;
+}
+
+#block-mykinship-userlogin {
+  position: relative;
+}
+
+.page-node-1 .item-list {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  transform:translate(-22%, -76%);
+  max-width: 100%;
+  margin-left: 2px;
+  padding-bottom: 10px;
+}
+
+.page-node-1 #edit-actions {
+  margin-top: 3rem;
+}
+
+
+.page-node-1 .list-group-item {
+  background: #ebece8;
+  border: none;
+}
+
+.page-node-1 .list-group-item a {
+  text-decoration: none;
+}
+
+.page-node-1 #edit-name, .page-node-1 #edit-pass {
+  border-radius: 0 !important;
+  border: none !important;
+  border-bottom: 2px solid #f1666a !important;
+}
+
+.page-node-8 #content > section > article > div > div > p:nth-child(4) > a:nth-child(2) {
+  text-decoration: none !important;
+}
+
+
+/* Footer */
+.site-footer {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.row.region.region-footer-first {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+#block-mykinship-anonymousfooter {
+  border: none;
+}
+
+#block-mykinship-anonymousfooter .container {
+  padding: 1rem 6rem;
+}
+
+.site-footer a {
+  text-decoration: none !important;
+}
+
+.site-footer h3.h5 {
+  color: #ffffff !important;
+}
+
+
+/* About page */
+.page-node-2 section.section,
+.page-node-4 section.section,
+.page-node-5 section.section,
+.page-node-6 section.section,
+.page-node-8 section.section,
+.error-page {
+  min-height: 65vh;
+  margin: 0 auto;
+  padding: 6rem 0;
+}
+
+/* Landing page navigation bar */
+.row.region.region-top-header {
+  width: 100%;
+}
+
+#block-mykinship-landingpageheader .text-center.text-lg-end {
+  display: flex;
+}
+
+.landing-nav-left-column {
+  padding-right: 3rem;
+}
+
+#block-mykinship-landingpageheader .btn.btn-primary {
+  width: fit-content;
+  padding: 10px 20px;
+}
+
+/* HCP landing page */
+.page-node-7 #content {
+  background-color: #e9eced;
+}
+
+.prescriberhome-1 {
+  background-color: #fafbfc;
+  background-image: url('/../sites/default/files/welcome-topimage.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  line-height: 2;
+}
+
+.row.prescriberhome-1 {
+  padding: 5rem 0 3rem 0;
+}
+
+.page-node-7 a.minibtn {
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+}
+
+.prescriberhome-5 {
+  background-color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+div.prescriberhome-3 h1,
+div.prescriberhome-4 h1,
+div.prescriberhome-5 h1 {
+  margin-bottom: 60px;
+  border-bottom: solid 3px #bfc0b7;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.prescriberhome-5 h2 {
+  margin-top: 10px;
+}
+
+.prescriberhome-6 {
+  background-color: #f1666a;
+  padding: 3rem 0 0 0;
+}
+
+.prescriberhome-6 h2 {
+  color: white;
+  max-width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.prescriberhome-4 {
+  background-color: #e9e8e3;
+  background-image: url('/../sites/default/files/welcome-about.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.prescriberhome-4 p {
+  margin: 0 0 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  max-width: 430px;
+}
+
+.btn.inline {
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 10px;
+}
+
+.prescriberhome-7 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  background-color: white;
+}
+
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  z-index: 0;
+}
+
+.prescriberhome-3 {
+  background-color: #e9eced;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.prescriberhome-3 hr {
+  border: none;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 4px solid #f1666a;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.prescriberhome-3 h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prescriberhome-3 h1,
+.prescriberhome-3 h2,
+.prescriberhome-3 h3 {
+  color: #164055;
+}
+

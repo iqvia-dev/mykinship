@@ -1,15 +1,15 @@
 /* ---------- Color Module Styles ----------- */
 
 body {
-  color: #3b3b3b;
-  background: #292929;
+  color: #333333;
+  background: #ebece8;
 }
 
 #page,
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
-  background: #fff;
+  background: #ebece8;
 }
 
 .tabs ul.primary li a.is-active {
@@ -22,16 +22,17 @@ body {
 }
 
 #navbar-top {
-  background-color: #055a8e;
+  background-color: #fff;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #navbar-main {
-  background-color: #1d84c3;
+  background-color: #fff;
 }
 
 a,
 .link {
-  color: #0071b3;
+  color: #f1666a;
 }
 
 a:hover,
@@ -52,17 +53,17 @@ a:focus,
 }
 a:active,
 .link:active {
-  color: #23aeff;
+  color: #f1666a;
 }
 
 .page-item.active .page-link {
-  background-color: #0071b3;
-  border-color: #0071b3;
+  background-color: #f1666a;
+  border-color: #f1666a;
 }
 
 .page-link,
 .page-link:hover {
-  color: #0071b3;
+  color: #f74f54;
 }
 
 .sidebar .block {
@@ -71,17 +72,17 @@ a:active,
 }
 
 .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #f1666a;
+  border-color: #f1666a;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #0256b1;
+  background-color: #f74f54;
 }
 
 .site-footer {
-  background: #292929;
+  background: #b8bdad;
 }
 
 .region-header,
@@ -96,19 +97,3 @@ a:active,
   color: #fffeff;
 }
 
-
-/* ---------- Color Form ----------- */
-
-[dir="rtl"] .color-form .color-palette {
-  margin-left: 0;
-  margin-right: 20px;
-}
-
-[dir="rtl"] .color-form .form-item label {
-  float: right;
-}
-
-[dir="rtl"] .color-form .color-palette .lock {
-  right: -20px;
-  left: 0;
-}

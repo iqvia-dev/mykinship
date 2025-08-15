@@ -7,6 +7,7 @@
 
 use Drupal\Core\Form\FormStateInterface;
 
+
 /**
  * Implements hook_form_system_theme_settings_alter() for settings form.
  *
@@ -32,3 +33,6 @@ function mykinship_form_system_theme_settings_alter(&$form, FormStateInterface $
     'bg-transparent' => t('Transparent'),
   ];
 }
+
+
+
