@@ -528,3 +528,21 @@ div.prescriberhome-5 h1 {
   color: #164055;
 }
 
+/* Web form */
+span.form-mandatory {
+  color: red;
+}
+
+form#webform-submission-register-add-form label.form-check-label {
+  margin-top: 0 !important;
+}
+
+form#webform-submission-register-add-form {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+main#content {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+}

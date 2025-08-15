@@ -43,3 +43,4 @@ test-results/
 
 # Ignore node_modules if using frontend tooling
 /node_modules/
+node_modules/
